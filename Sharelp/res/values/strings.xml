@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">创青春</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="notification">公告</string>
+    <string name="cooperation">组队</string>
+    <string name="sharelp">助享</string>
+
+    <string-array name="namess">
+        <item>nihao</item>
+        <item>haoma</item>
+    </string-array>
+    <string-array name="departnamelist">
+        <item>信息学院</item>
+        <item>航海学院</item>
+        <item>轮机学院</item>
+        <item>外国语学院</item>
+        <item>马克思学院</item>
+        <item>法学院</item>
+        <item>人文学院</item>
+        <item>数学系</item>
+        <item>物理系</item>
+    </string-array>
+    <string-array name="settings1">
+        <item>头像设置</item>
+        <item>消息提醒</item>
+        <item>皮肤设置</item>
+        <item>资料设置</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings2">
+        <item></item>
+        <item>版本信息</item>
+        <item>退出账号</item>
+        <item></item>
+    </string-array>
+    
+     <string-array name="aboutus1">
+      
+        <item>Sharelp团队</item>
+        <item>联系方式</item>
+        <item></item>
+    </string-array>
+    
+       <string-array name="aboutus2">
+        <item></item>
+        <item>研发目的</item>
+        <item>拟解决问题</item>
+         <item>批评建议</item>
+        <item></item>
+    </string-array>
+    
+    
+       <string-array name="grade">  
+        <item>大一</item>  
+        <item>大二 </item>  
+        <item>大三</item>  
+        <item>大四</item>  
+         <item>研究生</item> 
+    </string-array>  
+     <string-array name="teamcategory">  
+        <item>创业计划竞赛</item>  
+        <item>创业实践赛</item>  
+        <item>公益创业赛</item>  
+    </string-array>  
+         
+	<string name="pull_to_refresh">下拉可以刷新</string>
+	<string name="release_to_refresh">释放立即刷新</string>
+	<string name="refreshing">正在刷新…</string>
+	<string name="not_updated_yet">暂未更新过</string>
+	<string name="updated_at">上次更新于%1$s前</string>
+	<string name="updated_just_now">刚刚更新</string>
+	<string name="time_error">时间有问题</string>
+
+</resources>

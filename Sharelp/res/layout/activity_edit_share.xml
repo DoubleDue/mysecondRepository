@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#F5F5F5">
+    
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/userTitleBar"
+        >
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="标题（必填）" />
+
+                <EditText
+                    android:id="@+id/et_share_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/tvName"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_bg"
+                    android:textSize="13sp" />
+
+        </RelativeLayout>
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/et_share_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="标签（选填）" />
+
+                <EditText
+                    android:id="@+id/etQQ"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/et_share_icon"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_bg"
+                    android:textSize="13sp" />
+
+        </RelativeLayout>
+         <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/tvSuggest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="发表内容(必填)" />
+
+                <EditText 
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/et_share_content"
+                android:textSize="13sp"
+                android:gravity="top"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tvSuggest"
+                android:background="@drawable/shape_bg"
+                />
+        </RelativeLayout>
+        
+         <Button
+        android:id="@+id/btn_share_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:layout_marginTop="15.0dip"
+        android:background="@drawable/btn_login_selector"
+        android:gravity="center"
+        android:paddingTop="5.0dip"
+        android:text="提  交"
+        android:textColor="@android:color/white"
+        android:textSize="18.0sp" /> 
+    </LinearLayout>
+
+</RelativeLayout>

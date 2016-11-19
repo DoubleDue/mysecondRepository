@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:id="@+id/firstlinerlayout"
+    tools:context="com.example.sharelp_cooperation.Cooperation_Contest_Activity" >
+
+ 
+ <include layout="@layout/activity_slideshow_contest"/>
+
+    <GridView
+        android:id="@+id/gv_contest"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3" >
+    </GridView>
+
+</LinearLayout>

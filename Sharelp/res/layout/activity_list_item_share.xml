@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/iv_share_photo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/icon_new_stranger" />
+
+            <TextView
+                android:id="@+id/tv_share_name"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/iv_share_photo"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/iv_share_photo"
+                android:text="首页有猫腻"
+                android:textColor="#747476"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_share_name"
+                android:layout_below="@+id/tv_share_name"
+                android:layout_marginTop="3dp"
+                android:text="11:25"
+                android:textColor="#c5c5c7"
+                android:textSize="10sp" />
+
+                         <ImageView
+                             android:id="@+id/imageViewComment"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_alignTop="@+id/tv_share_name"
+                             android:layout_marginRight="3dp"
+                             android:layout_toLeftOf="@+id/tv_comments"
+                             android:src="@drawable/icon_comment_s_1" />
+
+                         <TextView
+                             android:id="@+id/tv_comments"
+                             android:layout_width="wrap_content"
+                             android:layout_height="20dp"
+                             android:layout_alignParentRight="true"
+                             android:layout_alignTop="@+id/imageViewComment"
+                             android:layout_marginRight="30dp"
+                             android:text="25"
+                             android:textColor="#2a518c" />
+
+                         <TextView
+                             android:id="@+id/tv_zan"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_alignTop="@+id/imageViewComment"
+                             android:layout_marginRight="8dp"
+                             android:layout_toLeftOf="@+id/imageViewComment"
+                             android:text="11"
+                             android:textColor="#2a518c" />
+
+                         <ImageView
+                             android:id="@+id/imageViewLikeing"
+                             android:layout_width="wrap_content"
+                             android:layout_height="20dp"
+                             android:layout_alignTop="@+id/tv_zan"
+                             android:layout_marginRight="3dp"
+                             android:layout_toLeftOf="@+id/tv_zan"
+                             android:src="@drawable/icon_hand_frs_normal_1" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_share_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="关于ipv6的一个小实验"
+            android:textColor="#29292b"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_share_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:text="学网络工程的，以后的就业方向有 哪些？ 听说网络工程对英语的要求挺高的..."
+            android:textColor="#525254"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</RelativeLayout>

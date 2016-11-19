@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+				android:textSize="23dp"
+                android:text="个人简历表"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+
+           
+                
+                 <TextView
+                    android:id="@+id/tv_coo_gp_sno"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_bg"
+                    android:gravity="center_vertical"
+                    android:text="姓名"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_coo_gp_sex"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_bg"
+                    android:gravity="center_vertical"
+                    android:text="性别"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_coo_gp_departandgrade"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_bg"
+                    android:gravity="center_vertical"
+                    android:text="学院年级"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_coo_gp_major"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_bg"
+                    android:gravity="center_vertical"
+                    android:text="专业"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_coo_gp_phonumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_bg"
+                    android:gravity="center_vertical"
+                    android:text="电话"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_coo_gp_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_bg"
+                    android:gravity="center_vertical"
+                    android:text="邮箱"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_coo_gp_specialize"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_bg"
+                    android:gravity="center_vertical"
+                    android:text="擅长"
+                    android:textSize="20sp" />
+                
+                       <TextView
+                    android:id="@+id/tv_coo_gp_intent"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_bg"
+                    android:gravity="center_vertical"
+                    android:text="组队意向"
+                    android:textSize="20sp" />
+                       
+                          <TextView
+                    android:id="@+id/tv_coo_gp_intro"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_bg"
+                    android:gravity="center_vertical"
+                    android:text="个人简介"
+                    android:textSize="20sp" />
+                          
+                             <TextView
+                    android:id="@+id/tv_coo_gp_expe"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_bg"
+                    android:gravity="center_vertical"
+                    android:text="参赛经历"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+         
+        </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/team_info_bg"
+    android:id="@+id/teamdetailist"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/team_info_circle" />
+
+        <TextView
+            android:id="@+id/tv_teamname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60px"
+            android:layout_marginTop="70px"
+            android:text="团队名"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_teamintro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70px"
+            android:layout_marginTop="150px"
+            android:text="团队宣言"
+            android:textColor="#ffffff" >
+        </TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80px"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="420px"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20px" >
+
+            <TextView
+                android:id="@+id/tv_projectinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="特长：良好的团队协调能力" />
+
+          
+            <TextView
+                android:id="@+id/tv_honor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="年级-专业：2013-网络工程"
+                android:textColor="#2d2d2d"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_captain_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tel：18840821861"
+                android:textColor="#777777"
+                android:textSize="13sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_bemember"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20px"
+            android:background="@drawable/btn_add"
+            android:text="申请加入"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/line"
+        android:maxWidth="100dp" />
+
+    <ListView
+        android:id="@+id/lv_details_team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

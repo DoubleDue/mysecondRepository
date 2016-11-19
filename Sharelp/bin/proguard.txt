@@ -1,0 +1,228 @@
+# view res/layout/layout_slideshow.xml #generated:6
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:44
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:27
+# view res/layout/abs__screen_simple.xml #generated:32
+# view res/layout/abs__screen_simple_overlay_action_mode.xml #generated:27
+# view xlarge-v4\res/layout-xlarge-v4/abs__screen_action_bar.xml #generated:44
+# view xlarge-v4\res/layout-xlarge-v4/abs__screen_action_bar_overlay.xml #generated:25
+-keep class com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout { <init>(...); }
+
+# view large-v4\res/layout-large-v4/abs__action_mode_close_item.xml #generated:17
+# view res/layout/abs__action_mode_close_item.xml #generated:17
+-keep class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout { <init>(...); }
+
+# view res/layout/abs__action_menu_item_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abs__action_menu_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ActionMenuView { <init>(...); }
+
+# view res/layout/abs__popup_menu_item_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:27
+# view res/layout/abs__screen_action_bar.xml #generated:51
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:30
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:53
+# view xlarge-v4\res/layout-xlarge-v4/abs__screen_action_bar.xml #generated:27
+# view xlarge-v4\res/layout-xlarge-v4/abs__screen_action_bar_overlay.xml #generated:28
+-keep class com.actionbarsherlock.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abs__action_mode_bar.xml #generated:19
+# view res/layout/abs__screen_action_bar.xml #generated:37
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:41
+# view xlarge-v4\res/layout-xlarge-v4/abs__screen_action_bar.xml #generated:37
+# view xlarge-v4\res/layout-xlarge-v4/abs__screen_action_bar_overlay.xml #generated:38
+-keep class com.actionbarsherlock.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:32
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:36
+# view xlarge-v4\res/layout-xlarge-v4/abs__screen_action_bar.xml #generated:32
+# view xlarge-v4\res/layout-xlarge-v4/abs__screen_action_bar_overlay.xml #generated:33
+-keep class com.actionbarsherlock.internal.widget.ActionBarView { <init>(...); }
+
+# view res/layout/abs__action_bar_home.xml #generated:17
+-keep class com.actionbarsherlock.internal.widget.ActionBarView$HomeView { <init>(...); }
+
+# view res/layout/abs__action_menu_item_layout.xml #generated:40
+-keep class com.actionbarsherlock.internal.widget.CapitalizingButton { <init>(...); }
+
+# view res/layout/abs__activity_chooser_view.xml #generated:19
+-keep class com.actionbarsherlock.internal.widget.IcsLinearLayout { <init>(...); }
+
+# view res/layout/abs__action_bar_tab.xml #generated:3
+-keep class com.actionbarsherlock.internal.widget.ScrollingTabContainerView$TabView { <init>(...); }
+
+# view res/layout/abs__action_bar_tab_bar_view.xml #generated:3
+-keep class com.actionbarsherlock.internal.widget.TabsLinearLayout { <init>(...); }
+
+# view res/layout/abs__search_view.xml #generated:84
+-keep class com.actionbarsherlock.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.example.sharelp.CooperationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.example.sharelp.NotificationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.example.sharelp.SharelpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:18
+-keep class com.example.sharelp.SharelpApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.example.sharelp.WelcomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:264
+-keep class com.example.sharelp_contestinform.Inform_DetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:252
+-keep class com.example.sharelp_contestinform.Inform_Schoolin_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:258
+-keep class com.example.sharelp_contestinform.Inform_Schoolout_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:209
+-keep class com.example.sharelp_cooperation.Contest_TeamList_DetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:212
+-keep class com.example.sharelp_cooperation.Contest_Write_MemberDetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:215
+-keep class com.example.sharelp_cooperation.Contest_Write_OneTeamActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:161
+-keep class com.example.sharelp_cooperation.Cooperation_Contest_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:197
+-keep class com.example.sharelp_cooperation.Cooperation_Contest_ListContent { <init>(...); }
+
+# view AndroidManifest.xml #generated:203
+-keep class com.example.sharelp_cooperation.Cooperation_Contest_ListContent_CreateteamActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:206
+-keep class com.example.sharelp_cooperation.Cooperation_Contest_ListContent_TeamListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:146
+-keep class com.example.sharelp_cooperation.Cooperation_CreateTeam { <init>(...); }
+
+# view AndroidManifest.xml #generated:173
+-keep class com.example.sharelp_cooperation.Cooperation_GP_DetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:167
+-keep class com.example.sharelp_cooperation.Cooperation_Personal_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:141
+-keep class com.example.sharelp_cooperation.Cooperation_Team_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:156
+-keep class com.example.sharelp_cooperation.Cooperation_Team_DetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:151
+-keep class com.example.sharelp_cooperation.Cooperation_Team_DetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:136
+-keep class com.example.sharelp_cooperation.Cooperation_Tutor_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:218
+-keep class com.example.sharelp_cooperation.Cooperation_Tutor_Teamlist { <init>(...); }
+
+# view AndroidManifest.xml #generated:270
+-keep class com.example.sharelp_cooperation_news.News_Schoolin_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:276
+-keep class com.example.sharelp_cooperation_news.News_Schoolout_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:191
+-keep class com.example.sharelp_sharelp.Sharelp_Help_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:185
+-keep class com.example.sharelp_sharelp.Sharelp_Share_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:236
+-keep class com.example.sharelp_sharelp.Sharelp_Share_DerailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:200
+-keep class com.example.sharelp_sharelp.Sharelp_Share_Edit_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class com.example.sharelp_show.Notification_GP_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:224
+-keep class com.example.sharelp_show.Notification_GP_DetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class com.example.sharelp_show.Notification_GTH_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:230
+-keep class com.example.sharelp_show.Notification_Gth_DetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.example.sharelp_slidingmenu.AboutUsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.example.sharelp_slidingmenu.CollectionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.example.sharelp_slidingmenu.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.example.sharelp_slidingmenu.PersonalDataActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.example.sharelp_slidingmenu.SettingsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class com.example.sharelp_slidingmenu.SigninActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.example.sharelp_slidingmenu.UploadPhotoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:247
+-keep class com.example.sharelp_tab.Contest_Inform_Tab_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:130
+-keep class com.example.sharelp_tab.Cooperation_Tab_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:242
+-keep class com.example.sharelp_tab.News_Tab_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:124
+-keep class com.example.sharelp_tab.Notification_Tab_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:179
+-keep class com.example.sharelp_tab.Sharelp_Tab_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.example.sharelp_tab.TabHostActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:239
+-keep class com.example.sharelp_tab.Util_Refresh_Tab { <init>(...); }
+
+# view res/layout/activity_signin.xml #generated:47
+-keep class com.example.sharelp_utils.EmailAutoCompleteTextView { <init>(...); }
+
+# view res/layout/activity_notification_gp.xml #generated:19
+-keep class com.example.sharelp_utils.OfRefreshableGridView { <init>(...); }
+
+# view res/layout/activity_cooperation_personal.xml #generated:18
+# view res/layout/activity_cooperation_team.xml #generated:18
+# view res/layout/activity_notification_gth.xml #generated:18
+# view res/layout/activity_sharelp_share.xml #generated:25
+-keep class com.example.sharelp_utils.RefreshableView { <init>(...); }
+
+# view res/layout/activity_slideshow_contest.xml #generated:9
+-keep class com.example.sharelp_utils.SlideShow_Contest { <init>(...); }
+
+# view res/layout/activity_slideshow_gth.xml #generated:9
+-keep class com.example.sharelp_utils.SlidingShow_Gth { <init>(...); }
+
+# view AndroidManifest.xml #generated:106
+-keep class com.example.sharelp_utils.copyright { <init>(...); }
+
+# view res/layout/slidingmenumain.xml #generated:2
+-keep class com.jeremyfeinstein.slidingmenu.lib.SlidingMenu { <init>(...); }
+

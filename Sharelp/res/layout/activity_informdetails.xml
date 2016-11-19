@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/inform_details_title"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_bg"
+                android:gravity="center_vertical"
+                android:text=" 标题：小挑宣讲会周六中远报告厅"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/inform_details_author"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/shape_bg"
+                android:gravity="center_vertical"
+                android:text=" 作者：程一舰"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/inform_details_time"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/shape_bg"
+                android:gravity="center_vertical"
+                android:text=" 时间：2015.12.23"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/inform_details_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/shape_bg"
+                android:text=" 内容:
+        亲，小挑宣讲会周六中远报告厅与你不见不散~想要了解和参加小挑的童鞋们，你见或者不见我，我就在这里，不远不近"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

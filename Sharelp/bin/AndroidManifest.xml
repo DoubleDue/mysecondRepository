@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sharelp"
+    android:versionCode="1"
+    android:versionName="1.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".SharelpApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/sharelp_logo"
+        android:label="@string/app_name"
+        android:theme="@style/zidingyi1" >
+        <activity
+            android:name=".WelcomeActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+
+            <!-- android:launchMode="singleInstance"页面跳转效果 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.sharelp_tab.TabHostActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".NotificationActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="NotificationActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".CooperationActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="CooperationActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SharelpActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="SharelpActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_slidingmenu.PersonalDataActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="PersonalDataActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_slidingmenu.UploadPhotoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="UploadPhotoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_slidingmenu.CollectionActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="CollectionActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_slidingmenu.SettingsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="SettingsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_slidingmenu.AboutUsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="AboutUsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_slidingmenu.LoginActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="登陆"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_slidingmenu.SigninActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="注册"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_utils.copyright"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_show.Notification_GP_Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_show.Notification_GTH_Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_tab.Notification_Tab_Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_tab.Cooperation_Tab_Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_cooperation.Cooperation_Tutor_Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_cooperation.Cooperation_Team_Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_cooperation.Cooperation_CreateTeam"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_cooperation.Cooperation_Team_DetailsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_cooperation.Cooperation_Team_DetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_cooperation.Cooperation_Contest_Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="创青春"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_cooperation.Cooperation_Personal_Activity"
+            android:configChanges="orientation|keyboardHidden"
+             android:label="简历列表"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_cooperation.Cooperation_GP_DetailsActivity"
+            android:configChanges="orientation|keyboardHidden"
+             android:label="优秀个人详情"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_tab.Sharelp_Tab_Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="tab"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_sharelp.Sharelp_Share_Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="论坛"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_sharelp.Sharelp_Help_Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_cooperation.Cooperation_Contest_ListContent"
+            android:label="竞赛通知" />
+        <activity
+            android:name="com.example.sharelp_sharelp.Sharelp_Share_Edit_Activity"
+            android:label="我的分享" />
+        <activity
+            android:name="com.example.sharelp_cooperation.Cooperation_Contest_ListContent_CreateteamActivity"
+            android:label="创建队伍" />
+        <activity
+            android:name="com.example.sharelp_cooperation.Cooperation_Contest_ListContent_TeamListActivity"
+            android:label="队伍阵营" />
+        <activity
+            android:name="com.example.sharelp_cooperation.Contest_TeamList_DetailsActivity"
+            android:label="队伍信息" />
+        <activity
+            android:name="com.example.sharelp_cooperation.Contest_Write_MemberDetailsActivity"
+            android:label="队员信息" />
+        <activity
+            android:name="com.example.sharelp_cooperation.Contest_Write_OneTeamActivity"
+            android:label="填写队伍" />
+        <activity
+            android:name="com.example.sharelp_cooperation.Cooperation_Tutor_Teamlist"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="导师信息"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_show.Notification_GP_DetailsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="个人详情"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_show.Notification_Gth_DetailsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="个人详情"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_sharelp.Sharelp_Share_DerailsActivity"
+            android:label="分享详情" />
+        <activity
+            android:name="com.example.sharelp_tab.Util_Refresh_Tab"
+            android:label="" />
+        <activity
+            android:name="com.example.sharelp_tab.News_Tab_Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_tab.Contest_Inform_Tab_Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_contestinform.Inform_Schoolin_Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="校内通知"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_contestinform.Inform_Schoolout_Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="官方通知"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_contestinform.Inform_DetailsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="通知详情"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_cooperation_news.News_Schoolin_Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="校内新闻"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.sharelp_cooperation_news.News_Schoolout_Activity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="官方新闻"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

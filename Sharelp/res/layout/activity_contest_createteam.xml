@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#F5F5F5">
+    
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/userTitleBar"
+        >
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+                <EditText
+                    android:id="@+id/et_contest_teamname"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_toRightOf="@+id/tv_teamname"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_bg"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_teamname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/et_contest_teamname"
+                    android:layout_alignBottom="@+id/et_contest_teamname"
+                    android:layout_alignParentLeft="true"
+                    android:text="团队名称（必填）" />
+
+        </RelativeLayout>
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+                <EditText
+                    android:id="@+id/et_intro"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_toRightOf="@+id/tv_intro"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_bg"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_intro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/et_intro"
+                    android:layout_alignBottom="@+id/et_intro"
+                    android:layout_alignParentLeft="true"
+                    android:text="团队介绍（选填）" />
+
+        </RelativeLayout>
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+                <EditText
+                    android:id="@+id/et_captainname"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                  android:layout_toRightOf="@+id/tvcaptain"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_bg"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tvcaptain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/et_captainname"
+                    android:layout_alignBottom="@+id/et_captainname"
+                    android:layout_alignParentLeft="true"
+                    android:text="队长姓名" />
+
+        </RelativeLayout>
+        
+          <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+                <EditText
+                    android:id="@+id/et_major"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_toRightOf="@+id/tv_major"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_bg"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_major"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/et_major"
+                    android:layout_alignBottom="@+id/et_major"
+                    android:layout_alignParentLeft="true"
+                    android:text="队长专业" />
+
+        </RelativeLayout>
+        
+        
+          <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+                <EditText
+                    android:id="@+id/et_link"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                   android:layout_toRightOf="@+id/tv_link"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_bg"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_link"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/et_link"
+                    android:layout_alignBottom="@+id/et_link"
+                    android:layout_alignParentLeft="true"
+                    android:text="联系方式" />
+
+        </RelativeLayout>
+        
+        
+        
+         <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_team_request"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+               
+                android:text="团队要求(必填)" />
+
+                <EditText 
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/et_team_request"
+                android:textSize="13sp"
+                android:gravity="top"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tv_team_request"
+                android:background="@drawable/shape_bg"
+                />
+        </RelativeLayout>
+        
+         <Button
+        android:id="@+id/btn_team_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:layout_marginTop="15.0dip"
+        android:background="@drawable/btn_login_selector"
+        android:gravity="center"
+        android:paddingTop="5.0dip"
+        android:text="马上创建"
+        android:textColor="@android:color/white"
+        android:textSize="18.0sp" /> 
+    </LinearLayout>
+
+</RelativeLayout>

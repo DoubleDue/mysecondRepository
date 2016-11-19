@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    
+   <!--  <ProgressBar
+        android:id="@+id/loadlistviewpage_share_detail"
+       android:layout_width="100dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="300px"
+        android:layout_marginLeft="220px"
+        android:indeterminateDrawable="@animator/progress_bar_anim"
+        android:visibility="visible" />
+ -->
+         <!-- android:indeterminateDrawable="@animator/progress_bar_anim" 添加动画图片 -->   
+    
+<!--     <com.example.sharelp_utils.RefreshableView
+        android:id="@+id/refreshable_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" > -->
+    <ListView
+        android:id="@+id/ulti"
+        android:layout_width="fill_parent"
+        android:layout_height="270dp"
+        android:layout_weight="0.94" >
+    </ListView>
+ <!--     </com.example.sharelp_utils.RefreshableView>  -->
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0F0F0"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/ib_zan"
+            android:background="@drawable/zan" 
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            />
+          <ImageButton
+            android:id="@+id/ib_input"
+            android:background="@drawable/input" 
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+          	<ImageButton 
+          	    android:layout_width="40dp"
+          	    android:layout_height="40dp"
+          	    android:visibility="gone"
+          	    android:id="@+id/ib_sendcomment"
+          	    android:src="@drawable/fa"/>
+          	<EditText 
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:visibility="gone"
+            android:id="@+id/et_comment_insert"/>
+          	
+          	
+          
+        
+    </LinearLayout>
+ 	
+</LinearLayout>

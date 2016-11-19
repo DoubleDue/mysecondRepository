@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"   
+        android:layout_width="fill_parent" android:layout_height="fill_parent"     
+android:scrollbars="vertical" android:fadingEdge="vertical"> 
+     
+    <TextView
+        android:id="@+id/tv_copyrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:text="
+1、本网所有内容，凡注明来源&apos;sharelp&apos;的所有文字、图片和音视频资料，版权均属搜狐公司所有，任何媒体、网站或个人未经本网协议授权不得转载、链接、转贴或以其他方式复制发布/发表。已经本网协议授权的媒体、网站，在下载使用时必须注明稿件来源：搜狐网，违者本网将依法追究责任。\n 
+
+凡本网注明来源：XXX 的文/图等稿件，本网转载出于传递更多信息之目的，并不意味着赞同其观点或证实其内容的真实性。\n
+2、除注明来源：&apos;sharelp&apos;的内容外，本网以下内容亦不可任意转载：\n
+　　 a.本网所指向的非本网内容的相关链接内容； \n
+　　 b.已作出不得转载或未经许可不得转载声明的内容； \n
+　　 c.未由本网署名或本网引用、转载的他人作品等非本网版权内容； \n
+　　 d.本网中特有的图形、标志、页面风格、编排方式、程序等； \n
+　　 e.本网中必须具有特别授权或具有注册用户资格方可知晓的内容； \n
+　　 f.其他法律不允许或本网认为不适合转载的内容。 \n
+3、转载或引用本网内容必须是以新闻性或资料性公共免费信息为使用目的的合理、善意引用，不得对本网内容原意进行曲解、修改，同时必须保留本网注明的稿件来源，并自负版权等法律责任。\n
+4、转载或引用本网内容不得进行如下活动：\n
+　　 a. 损害本网或他人利益；\n
+　　 b. 任何违法行为； \n
+　　 c. 任何可能破坏公秩良俗的行为； \n
+　　 d. 擅自同意他人继续转载、引用本网内容； \n
+5、转载或引用本网版权所有之内容须注明“转自‘sharelp’”字样，并标明本网网址www.sharelp.com。\n
+6、转载或引用本网中的署名文章，请按规定向作者支付稿酬。\n
+7、对于不当转载或引用本网内容而引起的民事纷争、行政处理或其他损失，本网不承担责任。\n
+8、本网以“法定许可”方式使用作品的报酬，已委托中华版权代理总公司代为转付。请相关作者直接与中华版权代理总公司联系，联系电话为：010-68003887。\n
+9、对不遵守本声明或其他违法、恶意使用本网内容者，本网保留追究其法律责任的权利。\n"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="13sp" />
+    
+</ScrollView>
+

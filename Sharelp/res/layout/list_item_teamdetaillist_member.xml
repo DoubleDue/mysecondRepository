@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <TextView
+        android:id="@+id/detail_memname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_bg"
+        android:gravity="center_vertical"
+        android:text="队员名字"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/detail_memmajor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_bg"
+        android:gravity="center_vertical"
+        android:text="专业"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/detail_memphone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_bg"
+        android:gravity="center_vertical"
+        android:text="队员电话"
+        android:textSize="20sp" />
+
+</LinearLayout>

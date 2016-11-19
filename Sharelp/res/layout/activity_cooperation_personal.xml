@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/loadlistviewpage_personal"
+        android:layout_width="100dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="300px"
+        android:layout_marginLeft="220px"
+        android:indeterminateDrawable="@animator/progress_bar_anim"
+        android:visibility="visible" />
+
+    <!-- android:indeterminateDrawable="@animator/progress_bar_anim" 添加动画图片 -->
+
+    <com.example.sharelp_utils.RefreshableView
+        android:id="@+id/refreshable_personal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/lv_personal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </ListView>
+    </com.example.sharelp_utils.RefreshableView>
+
+</LinearLayout>

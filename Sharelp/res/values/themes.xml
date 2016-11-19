@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    
+    <style   name="zidingyi1" parent="@android:style/Theme.Holo.Light" >
+        <item name="android:actionBarStyle">@style/beijing1</item>
+    </style>
+    <style name="beijing1" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/bar</item>
+    </style>
+    
+</resources>

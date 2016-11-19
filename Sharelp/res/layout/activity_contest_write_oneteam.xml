@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" 
+    android:fadingEdge="vertical"
+    android:background="#F5F5F5"
+     >
+    
+   <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="队伍信息表"
+           android:layout_gravity="center_horizontal"
+           android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="挑战杯：" />
+
+        <Spinner
+            android:id="@+id/sp_tzb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/teamcategory" >
+        </Spinner>
+    </LinearLayout>
+    
+    
+
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+
+     
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="项目名称" />
+
+            <EditText
+                android:id="@+id/et_team_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/tvName"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_bg"
+                android:textSize="13sp" />
+       
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="项目导师（“有”或“无”）" />
+
+            <EditText
+                android:id="@+id/et_team_tutor" 
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_bg"
+                android:textSize="13sp" />
+            
+
+            <TextView
+                android:id="@+id/et_share_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="项目已有人数" />
+
+            <EditText
+                android:id="@+id/et_team_num"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/et_share_icon"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_bg"
+                android:textSize="13sp" />
+        
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="项目需求（需要什么样的队友） " />
+
+            <EditText
+                android:id="@+id/et_team_intro"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_bg"
+                android:gravity="top"
+                android:textSize="13sp" />
+        
+               <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="项目简介（1000字以内）" />
+ <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="填写的方向可包括：项目简介、项目规划、市场现状、产品与服务、风险和对策、市场定位及分析、项目可行性分析" />
+               
+            <EditText
+                android:id="@+id/et_pro_intro"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_bg"
+                android:gravity="top"
+                android:textSize="13sp" />
+        
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="项目已有成就" />
+
+            <EditText
+                android:id="@+id/et_team_honour"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_bg"
+                android:gravity="top"
+                android:textSize="13sp" />
+            
+            
+    </LinearLayout>
+    
+       <Button
+            android:id="@+id/btn_submitteam"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/btn_login_selector"
+            android:gravity="center"
+            android:paddingTop="5.0dip"
+            android:text="创建"
+            android:textColor="@android:color/white"
+            android:textSize="18.0sp" />
+    
+    </LinearLayout>
+
+</ScrollView>
